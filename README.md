@@ -11,7 +11,7 @@ build add datcxx/pretty-hash
 
 # EXAMPLE
 
-``c++
+```c++
 
 #include "../deps/datcxx/libsodium/index.hxx"
 #include "../deps/datcxx/pretty-hash/index.hxx"
