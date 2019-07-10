@@ -1,0 +1,31 @@
+{
+  "name": "",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:datcxx/pretty-hash.git"
+  },
+  "dependencies": {
+    "git@github.com:datcxx/buffer": "c0b73b9f",
+    "git@github.com:datcxx/util-string": "2d389f53"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": [
+      "clang++ -std=c++2a -stdlib=libc++",
+      "test/index.cxx -o test/index && ./test/index"
+    ]
+  },
+  "flags": [
+    "-std=c++2a",
+    "-stdlib=libc++"
+  ],
+  "files": [
+    "index.hxx",
+    "index.cxx"
+  ],
+  "devDependencies": {
+    "git@github.com:datcxx/libsodium": "07b99a74",
+    "git@github.com:heapwolf/cxx-tap": "d373e4be"
+  }
+}
