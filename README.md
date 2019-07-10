@@ -19,7 +19,7 @@ build add datcxx/pretty-hash
 auto bytes = Hyper::Sodium::randomBytes(32);
 auto pretty = Hyper::Util::prettyHash(bytes);
 
-// pretty => '0b0a97..f3'
+// pretty => "0b0a97..f3"
 ```
 
 [0]:https://github.com/datcxx/build
